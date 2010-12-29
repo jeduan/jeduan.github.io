@@ -1,0 +1,7 @@
+.DS_Store
+*.esproj
+build
+test
+README.markdown
+demo
+js/profiling
