@@ -1,3 +1,6 @@
+/* @override 
+	http://localhost:4000/assets/themes/jeduan/css/app.css */
+
 /* Foundation v2.1.4 http://foundation.zurb.com */
 /* Artfully masterminded by ZURB  */
 
@@ -10,15 +13,107 @@
 */
 
 
+
+@font-face {
+    font-family: 'LatoBlack';
+    src: url('Lato-Black-webfont.eot');
+    src: url('Lato-Black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Lato-Black-webfont.woff') format('woff'),
+         url('Lato-Black-webfont.ttf') format('truetype'),
+         url('Lato-Black-webfont.svg#LatoBlack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LatoBold';
+    src: url('Lato-Bold-webfont.eot');
+    src: url('Lato-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Lato-Bold-webfont.woff') format('woff'),
+         url('Lato-Bold-webfont.ttf') format('truetype'),
+         url('Lato-Bold-webfont.svg#LatoBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LatoRegular';
+    src: url('Lato-Regular-webfont.eot');
+    src: url('Lato-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Lato-Regular-webfont.woff') format('woff'),
+         url('Lato-Regular-webfont.ttf') format('truetype'),
+         url('Lato-Regular-webfont.svg#LatoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LatoLight';
+    src: url('Lato-Light-webfont.eot');
+    src: url('Lato-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Lato-Light-webfont.woff') format('woff'),
+         url('Lato-Light-webfont.ttf') format('truetype'),
+         url('Lato-Light-webfont.svg#LatoLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /* -----------------------------------------
    Shared Styles
 ----------------------------------------- */
 body {
-  background: #ddd;
+  background: #303030 url(http://subtlepatterns.com/patterns/darkdenim3.png);
+  font-family: LatoRegular;
+  font-size: 14px;
 }
 
 .container {
-  background: white;
+  background: #efefef;
+  max-width: 750px;
+  min-height: 600px;
+  margin: 1em auto 0;
+  box-shadow: 0 5px 5px -3px black;
+  border-radius: 2px;
+}
+
+h1, h2, h3 {
+  font-family: 'BreeSerifRegular', Helvetica, Arial, sans-serif;
+}
+
+.title {
+  font-family: 'LatoBlack';
+  font-size: 2.5em;
+  line-height: 2.2em;
+  letter-spacing: -1px;
+  text-align: center;
+}
+
+.title a {
+  color: #c32213;
+}
+
+.subtitle {
+  font-family: LatoLight;
+  font-size: 2em;
+  line-height: 1.25;
+  color: black;
+  max-width: 20em;
+  text-align: center;
+  margin: 0 auto 1em;
+  
+}
+
+.joke {
+  font-family: LatoLight;
+  
+}
+
+a {
+  color: #1693A5;
 }
 
 

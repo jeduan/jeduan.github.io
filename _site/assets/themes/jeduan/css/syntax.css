@@ -1,15 +1,5 @@
-@font-face {
-  font-family: 'InconsolataMedium';
-  src: url('Inconsolata-webfont.eot');
-  src: url('Inconsolata-webfont.eot?#iefix') format('embedded-opentype'),
-       url('Inconsolata-webfont.woff') format('woff'),
-       url('Inconsolata-webfont.ttf') format('truetype'),
-       url('Inconsolata-webfont.svg#InconsolataMedium') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
 pre, code {
-  font-family: "InconsolataMedium", Monaco, "Courier New", Courier, monospace;
+  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
   font-size: 14px;
 }
 pre {

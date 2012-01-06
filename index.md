@@ -4,25 +4,11 @@ title: Hola
 header: Esto es mi pagina
 ---
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllboostrap.com)
-
     
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
+<p class="subtitle">Hi! I'm a web developer based on Mexico City, glad you stopped by!</p>
 
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap-core)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
-
