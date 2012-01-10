@@ -26,11 +26,14 @@ body {
   box-shadow: 0 5px 5px -3px black;
   border-radius: 2px;
   position: relative;
+  padding-bottom: 92px;
 }
 
-.container > footer {
+.content > footer {
   position: absolute;
   bottom: 0;
+  height: 82px;
+  width: 100%;
 }
 
 /* @end */
@@ -131,7 +134,11 @@ p {
 
 
 /* -----------------------------------------
-   Page Name 2
+   Post
 ----------------------------------------- */
-
+article.post h2 {
+  font-family: "LatoLight", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  width: 16em;
+}
 

@@ -5,3 +5,5 @@ http://jeduan.com/index.html
 http://jeduan.com/pages.html
 http://jeduan.com/sitemap.txt
 http://jeduan.com/tags.html
+
+http://jeduan.com/2012/using-tweet-marker
