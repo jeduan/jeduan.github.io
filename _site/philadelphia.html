@@ -7,7 +7,7 @@
 	<!-- Set the viewport width to device width for mobile -->
 	<meta name="viewport" content="width=device-width" />
 
-  <title>Hola - Jeduan Cornejo</title>
+  <title>Philadelphia Mexico</title>
   <meta name="author" content="Jeduan Cornejo" />
   <link href="http://feeds.feedburner.com/username" rel="alternate" title="your title" type="application/atom+xml" />
 
@@ -34,20 +34,24 @@
     <div class="row content">  
       <div id="post" class="row">
   <div class="twelve columns">
-    <p class='subtitle'>Hi! I'm a web developer from Mexico City, glad you stopped by</p>
-<p>The two languages I&#8217;m most comfortable on are Ruby and Javascript.</p>
-<section class='projects'>
-  <project>
-    
-  </project>
-</section>
-<p>I&#8217;m an active member of Mexico City&#8217;s growing startup ecosystem. I&#8217;ve worked with <a href='http://www.nuflick.com'>Nuflick</a> on the past and also worked on several hackathons.</p>
+    <h2 id='philadelphia'>Philadelphia</h2>
 
-<p>Right now there&#8217;s not much to show on this site, but meanwhile you can check out the code I&#8217;ve released on <a href='http://github.com/jeduan'>my github</a>. I&#8217;m interested on web development on Ruby and Javascript, and right now I&#8217;m toying with CoffeeScript and iOS Development.</p>
-<ul class='posts'>
-  
-    <li><span>10 Jan 2012</span> &raquo; <a href='/2012/using-tweet-marker'>Using Tweet Marker (when the best is not what's right for you)</a></li>
-  
+<p>I worked for a year improving Kraft Foods&#8217; Philadelphia Cream Cheese online presence.</p>
+
+<p>For the new website the whole spec was to do something innovative, while keeping eye on usability for Philadelphia&#8217;s demographics (25-45 year old women).</p>
+
+<p>We came up with a scrolling navigation single page site. I looked up on the plugins to achieve this and neither was realy what I was looking for so I just <a href='https://github.com/jeduan/jquery-glideto'>built a plugin for it</a>.</p>
+
+<p><img alt='Philadelphia site' src='/assets/philadelphia/newsite.jpg' /></p>
+
+<p>The site gets a decent amount of traffic (150-200k monthly pageviews) so we had to implement some interesting stuff to make it fast, such as</p>
+
+<ul>
+<li>All the <a href='https://github.com/rumblelabs/asset_sync'>assets are precompiled and copied to S3</a></li>
+
+<li>It has the most visited pages on memcache</li>
+
+<li>It runs on unicorn so it gets the most of each dyno</li>
 </ul>
   </div>
 </div>

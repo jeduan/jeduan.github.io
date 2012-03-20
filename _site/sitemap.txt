@@ -3,6 +3,7 @@ http://jeduan.com/archive.html
 http://jeduan.com/categories.html
 http://jeduan.com/index.html
 http://jeduan.com/pages.html
+http://jeduan.com/philadelphia.html
 http://jeduan.com/sitemap.txt
 http://jeduan.com/tags.html
 
