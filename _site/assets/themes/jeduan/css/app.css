@@ -20,7 +20,7 @@ body {
 
 .container {
   background: #efefef;
-  max-width: 727px;
+  max-width: 640px;
   min-height: 600px;
   margin: 1em auto 0;
   box-shadow: 0 5px 5px -3px black;
@@ -105,15 +105,16 @@ body {
   font-size: 2em;
   line-height: 1.25;
   color: black;
-  max-width: 20em;
   text-align: center;
   margin: 0 auto 1em;
-  
+}
+
+.row {
+  min-width: 640px;
 }
 
 .joke {
   font-family: LatoLight;
-  
 }
 
 a {
@@ -121,7 +122,15 @@ a {
 }
 
 p {
-  max-width: 42em;
+  max-width: 640px;
+}
+
+ul {
+  list-style: inside;
+}
+
+ul li {
+  margin-bottom: 0;
 }
 
 /* @end */
