@@ -7,4 +7,5 @@ http://jeduan.com/philadelphia.html
 http://jeduan.com/sitemap.txt
 http://jeduan.com/tags.html
 
+http://jeduan.com/2012/san-francisco
 http://jeduan.com/2012/using-tweet-marker
