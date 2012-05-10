@@ -147,50 +147,52 @@ body > header {
   font-family: 'PT Serif', serif;
   margin-bottom: 1.25em; }
 
-footer .arrow_box {
-  position: relative;
-  background: #ffffff;
-  border: 0.125em solid #333333;
-  width: 12em;
-  margin: 0 auto; }
-  footer .arrow_box:after, footer .arrow_box:before {
-    top: 100%;
-    border: solid transparent;
-    content: " ";
-    height: 0;
-    width: 0;
-    position: absolute;
-    pointer-events: none; }
-  footer .arrow_box:after {
-    border-top-color: #ffffff;
-    border-width: 1em;
-    left: 50%;
-    margin-left: -1em; }
-  footer .arrow_box:before {
-    border-top-color: #333;
-    border-width: 1.188em;
-    left: 50%;
-    margin-left: -1.188em; }
-  footer .arrow_box a {
-    display: block;
-    margin-right: 0.25em;
-    text-align: right;
-    color: #333;
-    text-decoration: none; }
-footer .contact {
-  width: 12em;
-  font-weight: 900;
-  background: black;
-  color: white;
-  margin: 0 auto;
-  text-align: center;
-  text-transform: lowercase;
-  margin-top: 1.25em;
-  padding: 0.125em; }
-footer .joke {
-  font-size: 0.75em;
-  font-weight: 200;
-  margin-top: 1.25em; }
+footer {
+  margin-top: 1.5em; }
+  footer .arrow_box {
+    position: relative;
+    background: #ffffff;
+    border: 0.125em solid #333333;
+    width: 12em;
+    margin: 0 auto; }
+    footer .arrow_box:after, footer .arrow_box:before {
+      top: 100%;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none; }
+    footer .arrow_box:after {
+      border-top-color: #ffffff;
+      border-width: 1em;
+      left: 50%;
+      margin-left: -1em; }
+    footer .arrow_box:before {
+      border-top-color: #333;
+      border-width: 1.188em;
+      left: 50%;
+      margin-left: -1.188em; }
+    footer .arrow_box a {
+      display: block;
+      margin-right: 0.25em;
+      text-align: right;
+      color: #333;
+      text-decoration: none; }
+  footer .contact {
+    width: 12em;
+    font-weight: 900;
+    background: black;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: lowercase;
+    margin-top: 1.25em;
+    padding: 0.125em; }
+  footer .joke {
+    font-size: 0.75em;
+    font-weight: 200;
+    margin-top: 1.25em; }
 
 /*
 	Style overrides for IE6-8

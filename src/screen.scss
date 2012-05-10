@@ -205,7 +205,7 @@ body > header {
   article {
     margin-top: 20px/$em;
   }
-  
+
   p {
     font-family: 'PT Serif', serif;
     margin-bottom: 20px/$em;
@@ -213,6 +213,7 @@ body > header {
 }
 
 footer {
+  margin-top: 24px/$em;
   .arrow_box {
   	position: relative;
   	background: #ffffff;
