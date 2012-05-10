@@ -46,9 +46,9 @@ textarea { overflow: auto; }
 /*
 	These are easy to forget
 */
-::selection { background: red; color: white; }
+::selection { background: #81342A; color: white; }
 
-::-moz-selection { background: red; color: white; }
+::-moz-selection { background: #81342A; color: white; }
 
 img::selection { background: transparent; }
 
