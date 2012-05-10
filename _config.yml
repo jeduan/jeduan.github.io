@@ -8,7 +8,7 @@ var:
   categories_path : /categories.html
 
 production_url : http://jeduan.com # or your custom domain name
-title : Jeduan Cornejo
+title : Jeduan
 
 author :
   name : Jeduan Cornejo
