@@ -6,6 +6,13 @@ var:
   archive_path: /archive.html
   categories_path : /categories.html
 
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - bower.json
+  - bower_components
+  - sass
+
 production_url : http://jeduan.com # or your custom domain name
 title : Jeduan
 

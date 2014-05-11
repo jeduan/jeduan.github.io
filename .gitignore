@@ -8,3 +8,4 @@ js/profiling
 .bin
 .bundle
 Gemfile.lock
+bower_components
