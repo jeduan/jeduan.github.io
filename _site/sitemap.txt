@@ -1,4 +1,5 @@
 
+http://jeduan.com/about.html
 http://jeduan.com/archive.html
 http://jeduan.com/categories.html
 http://jeduan.com/index.html
