@@ -47,7 +47,7 @@ module.exports = function (grunt) {
           'sass/*.scss',
           'bower_components/*'
         ],
-        tasks: ['sass', 'concat', /* 'cssmin',*/ 'copy']
+        tasks: ['process-css']
       },
       jekyll: {
         files: [
@@ -80,7 +80,8 @@ module.exports = function (grunt) {
   grunt.registerTask('serve', [
     'shell:jekyll',
     'connect:server',
-    'open:server',
     'watch'
   ])
+
+  grunt.registerTask('process-css', ['sass', 'concat', /* 'cssmin',*/ 'copy'])
 }
