@@ -6,7 +6,8 @@ var:
 
 markdown: redcarpet
 redcarpet:
-  extensions: ['smart', 'fenced_code_blocks', 'strikethrough', 'autolink']
+  extensions: ['smart', 'fenced_code_blocks', 'strikethrough', 'autolink',
+  'no_intra_emphasis']
 
 exclude:
   - Gemfile
