@@ -11,11 +11,11 @@ header: Esto es mi pagina
 </ul>
 
 
-<h2>Portfolio</h2>
+<h2>Projects</h2>
 <section class="projects">
   {% for page in site.pages %}
     {% if page.group == 'project' %}
-      <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+<li><a href="{{ page.url }}">{{ page.title }}</a></li>
     {% endif %}
   {% endfor %}
 </section>

@@ -25,29 +25,31 @@ html, button, input, select, textarea,
   margin: 0 auto;
 }
 
-.pure-g [class*="pure-u"] .pure-menu,
-.pure-g [class*="pure-u"] .header-position {
-  @extend %sans-font;
-}
-
-.pure-g h2 {
-  font-family: 'Avenir Next', Helvetica, sans-serif;
-}
-
-.pure-g {
+.pure-g, .pure-g-r {
+  @extend %outer-container;
   font-family: $font-content;
   letter-spacing: normal;
-  @extend %outer-container;
-  padding-bottom: 180px;
+
+  [class*="pure-u"] .pure-menu,
+  [class*="pure-u"] .header-position {
+    @extend %sans-font;
+  }
+  h2 {
+    font-family: 'Avenir Next', Helvetica, sans-serif;
+  }
 }
-.footer {
-  @extend %sans-font;
-  height: 180px;
+
+.u-center-mobile {
+  @include bp-small {
+    text-align: center;
+  }
 }
+
 .header-name {
   color: #333333;
   font-family: 'Avenir Next', 'HelveticaNeue';
   @include font-size(24px);
+  @extend %center-mobile;
 }
 .header-firstname {
   text-decoration: none;
@@ -60,15 +62,22 @@ html, button, input, select, textarea,
 .header-position {
   @include font-size(16px);
   color: #666;
+  @extend %center-mobile;
 }
 
 .content {
+  padding: calculateRem(10px);
+  @include bp-large {
+    min-height: calculateRem(500px);
+  }
+
   p {
     margin-bottom: 1.25rem;
   }
 }
 
 .footer {
+  @extend %sans-font;
   @include bp-large {
     position: static;
     bottom: 0;

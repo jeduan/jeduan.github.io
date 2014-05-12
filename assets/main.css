@@ -1852,25 +1852,23 @@ html, button, input, select, textarea, .pure-g [class*="pure-u"], .pure-g-r [cla
   /* Set your content font stack here: */
   font-family: 'PT Serif', serif; }
 
-.pure-g [class*="pure-u"] .pure-menu, .pure-g [class*="pure-u"] .header-position, .footer {
+.pure-g [class*="pure-u"] .pure-menu, .pure-g [class*="pure-u"] .header-position, .pure-g-r [class*="pure-u"] .pure-menu, .pure-g-r [class*="pure-u"] .header-position, .footer {
   font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
-.pure-g, .footer-container {
+.pure-g, .pure-g-r, .footer-container {
   max-width: 40em;
   max-width: 40rem;
   margin: 0 auto; }
 
-
-.pure-g h2 {
-  font-family: 'Avenir Next', Helvetica, sans-serif; }
-
-.pure-g {
+.pure-g, .pure-g-r {
   font-family: 'PT Serif', serif;
-  letter-spacing: normal;
-  padding-bottom: 180px; }
+  letter-spacing: normal; }
+  .pure-g h2, .pure-g-r h2 {
+    font-family: 'Avenir Next', Helvetica, sans-serif; }
 
-.footer {
-  height: 180px; }
+@media only screen and (max-width: 30em) {
+  .u-center-mobile {
+    text-align: center; } }
 
 .header-name {
   color: #333333;
@@ -1891,10 +1889,15 @@ html, button, input, select, textarea, .pure-g [class*="pure-u"], .pure-g-r [cla
   font-size: 1rem;
   color: #666; }
 
-.content p {
-  margin-bottom: 1.25rem; }
+.content {
+  padding: 0.625rem; }
+  @media only screen and (min-width: 60em) {
+    .content {
+      min-height: 31.25rem; } }
+  .content p {
+    margin-bottom: 1.25rem; }
 
-@media only screen and (max-width: 60em) {
+@media only screen and (min-width: 60em) {
   .footer {
     position: static;
     bottom: 0;
