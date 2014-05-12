@@ -1,6 +1,25 @@
 @import "sass/mixins";
-$em: 1;
-$font-content: 'Cardo', serif;
+
+%heading {
+  font-family: 'futura-pt-1', 'futura-pt-2', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+%content {
+//  font-family: "chaparral-pro-1", "chaparral-pro-2", Georgia, serif;
+  font-family: "source-code-pro-1","source-code-pro-2", monospace;
+  color: #666;
+}
+
+p em, p i {
+  font-weight: bold;
+  font-style: normal;
+}
+
+%outer-container {
+  max-width: 40em;
+  max-width: 40rem;
+  margin: 0 auto;
+}
 
 *, *:before, *:after {
   -moz-box-sizing: border-box;
@@ -11,31 +30,21 @@ $font-content: 'Cardo', serif;
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"],
 .pure-g-r [class *= "pure-u"] {
-    /* Set your content font stack here: */
-  font-family: $font-content;
-}
-
-%sans-font {
-  font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-%outer-container {
-  max-width: 40em;
-  max-width: 40rem;
-  margin: 0 auto;
+  @extend %content;
 }
 
 .pure-g, .pure-g-r {
   @extend %outer-container;
-  font-family: $font-content;
+  @extend %content;
   letter-spacing: normal;
 
   [class*="pure-u"] .pure-menu,
   [class*="pure-u"] .header-position {
-    @extend %sans-font;
+    @extend %heading;
   }
-  h2 {
-    font-family: 'Avenir Next', Helvetica, sans-serif;
+  h2, h3 {
+    @extend %heading;
+    color: #333;
   }
 }
 
@@ -47,14 +56,15 @@ html, button, input, select, textarea,
 
 .header-name {
   color: #333333;
-  font-family: 'Avenir Next', 'HelveticaNeue';
+  @extend %heading;
   @include font-size(24px);
-  @extend %center-mobile;
+}
+.header-link {
+  text-decoration: none;
+  color: #333;
 }
 .header-firstname {
-  text-decoration: none;
   font-weight: 700;
-  color: #333;
 }
 .header-lastname {
   font-weight: 300;
@@ -62,7 +72,6 @@ html, button, input, select, textarea,
 .header-position {
   @include font-size(16px);
   color: #666;
-  @extend %center-mobile;
 }
 
 .content {
@@ -79,7 +88,7 @@ html, button, input, select, textarea,
 }
 
 .footer {
-  @extend %sans-font;
+  @extend %heading;
   @include bp-small {
     padding: calculateRem(10px);
   }
@@ -120,16 +129,16 @@ html, button, input, select, textarea,
   }
   a {
     display: block;
-    margin-right: 4px/$em;
+    margin-right: calculateRem(4px);
     text-align: right;
     color: #333;
     text-decoration: none;
   }
 }
 .footer-joke {
-  font-size: 12px/$em;
+  font-size: calculateRem(12px);
   font-weight: 200;
-  margin-top: 20px/$em;
+  margin-top: calculateRem(20px);
 }
 .contact {
   font-weight: 700;
@@ -138,6 +147,6 @@ html, button, input, select, textarea,
   margin: 0 auto;
   text-align: center;
   text-transform: lowercase;
-  margin-top: 20px/$em;
-  padding: 2px/$em;
+  margin-top: calculateRem(20px);
+  padding: calculateRem(2px);
 }

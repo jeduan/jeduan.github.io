@@ -10,8 +10,8 @@
   <title>{{ page.title }}</title>
   <meta name="author" content="{{ site.author.name }}" />
   <link href="http://feeds.feedburner.com/username" rel="alternate" title="Jeduan" type="application/atom+xml" />
-  <link href='http://fonts.googleapis.com/css?family=Cardo:400,700,400italic' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="/assets/main.css"/>
+  <script type="text/javascript" src="//use.typekit.net/feb8ivd.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>  <link rel="stylesheet" href="/assets/main.css"/>
   <!-- <script src="/assets/js/modernizr.min.js"></script> -->
 </head>
 
@@ -19,8 +19,10 @@
   <div class="pure-g-r">
     <div class="header-title pure-u-1-2 u-center-mobile">
       <div class="header-name">
-        <a class="header-firstname" href="/">{{ site.title }}</a>
-        <span class="header-lastname">Cornejo</span>
+        <a href="/" class="header-link">
+          <span class="header-firstname">{{ site.title }}</span>
+          <span class="header-lastname">Cornejo</span>
+        </a>
       </div>
       <div class="header-position u-center-mobile">
         Full stack developer in Mexico City
