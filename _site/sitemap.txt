@@ -1,12 +1,12 @@
 
-http://jeduan.com/about.html
-http://jeduan.com/archive.html
-http://jeduan.com/categories.html
-http://jeduan.com/index.html
-http://jeduan.com/pages.html
-http://jeduan.com/philadelphia.html
-http://jeduan.com/sitemap.txt
-http://jeduan.com/tags.html
+http://www.jeduan.com/about.html
+http://www.jeduan.com/archive.html
+http://www.jeduan.com/categories.html
+http://www.jeduan.com/index.html
+http://www.jeduan.com/pages.html
+http://www.jeduan.com/philadelphia.html
+http://www.jeduan.com/sitemap.txt
+http://www.jeduan.com/tags.html
 
-http://jeduan.com/2012/san-francisco
-http://jeduan.com/2012/using-tweet-marker
+http://www.jeduan.com/2012/san-francisco
+http://www.jeduan.com/2012/using-tweet-marker

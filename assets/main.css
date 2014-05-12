@@ -1848,21 +1848,32 @@ pre.terminal code {
 
 html, button, input, select, textarea, .pure-g [class*="pure-u"], .pure-g-r [class*="pure-u"], .pure-g, .pure-g-r {
   font-family: "source-code-pro-1", "source-code-pro-2", monospace;
-  color: #666; }
-
-p em, p i {
-  font-weight: bold;
-  font-style: normal; }
+  color: #505050; }
 
 .pure-g, .pure-g-r, .footer-container {
   max-width: 40em;
   max-width: 40rem;
   margin: 0 auto; }
 
+a {
+  text-decoration: none;
+  color: #000; }
+
+p em, p i {
+  font-weight: bold;
+  font-style: normal; }
+
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
+
+body {
+  background: #ebebeb; }
+
+@media only screen and (max-width: 30em) {
+  .u-center-mobile {
+    text-align: center; } }
 
 
 .pure-g, .pure-g-r {
@@ -1870,18 +1881,10 @@ p em, p i {
   .pure-g h2, .pure-g h3, .pure-g-r h2, .pure-g-r h3 {
     color: #333; }
 
-@media only screen and (max-width: 30em) {
-  .u-center-mobile {
-    text-align: center; } }
-
 .header-name {
   color: #333333;
   font-size: 24px;
   font-size: 1.5rem; }
-
-.header-link {
-  text-decoration: none;
-  color: #333; }
 
 .header-firstname {
   font-weight: 700; }
@@ -1965,3 +1968,8 @@ p em, p i {
   margin-top: 1.25rem;
   padding: 2px;
   padding: 0.125rem; }
+
+.pure-menu.pure-menu-open {
+  background: transparent; }
+.pure-menu li a:hover, .pure-menu li a:focus {
+  background: white; }

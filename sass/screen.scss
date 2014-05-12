@@ -7,12 +7,7 @@
 %content {
 //  font-family: "chaparral-pro-1", "chaparral-pro-2", Georgia, serif;
   font-family: "source-code-pro-1","source-code-pro-2", monospace;
-  color: #666;
-}
-
-p em, p i {
-  font-weight: bold;
-  font-style: normal;
+  color: #505050;
 }
 
 %outer-container {
@@ -21,10 +16,30 @@ p em, p i {
   margin: 0 auto;
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+p em, p i {
+  font-weight: bold;
+  font-style: normal;
+}
+
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+body {
+  background: #ebebeb;
+}
+
+.u-center-mobile {
+  @include bp-small {
+    text-align: center;
+  }
 }
 
 html, button, input, select, textarea,
@@ -48,20 +63,10 @@ html, button, input, select, textarea,
   }
 }
 
-.u-center-mobile {
-  @include bp-small {
-    text-align: center;
-  }
-}
-
 .header-name {
   color: #333333;
   @extend %heading;
   @include rem(font-size, 24);
-}
-.header-link {
-  text-decoration: none;
-  color: #333;
 }
 .header-firstname {
   font-weight: 700;
@@ -74,6 +79,7 @@ html, button, input, select, textarea,
   color: #666;
 }
 
+// Content
 .content {
   @include bp-small {
     @include rem(padding, 10);
@@ -87,6 +93,7 @@ html, button, input, select, textarea,
   }
 }
 
+// Footer
 .footer {
   @extend %heading;
   @include bp-small {
@@ -149,4 +156,13 @@ html, button, input, select, textarea,
   text-transform: lowercase;
   @include rem(margin-top, 20);
   @include rem(padding, 2);
+}
+
+.pure-menu {
+  &.pure-menu-open {
+    background: transparent;
+  }
+  li a:hover, li a:focus {
+    background: lighten(#ebebeb, 20%);
+  }
 }
