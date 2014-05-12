@@ -11,8 +11,7 @@
 }
 
 %outer-container {
-  max-width: 40em;
-  max-width: 40rem;
+  @include rem(max-width, 640);
   margin: 0 auto;
 }
 
