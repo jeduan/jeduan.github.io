@@ -6,7 +6,7 @@ module.exports = function (grunt) {
     sass: {
       dev: {
         files: {
-          'css/main.css': 'sass/screen.scss'
+          'tmp/main.css': 'sass/screen.scss'
         }
       }
     },
@@ -15,7 +15,7 @@ module.exports = function (grunt) {
         src: [
           'bower_components/pure/pure.css',
           'css/syntax.css',
-          'css/main.css'
+          'tmp/main.css'
         ],
         dest: 'assets/main.css'
       }
@@ -32,6 +32,7 @@ module.exports = function (grunt) {
         dest: '_site/assets/main.css'
       }
     },
+    clean: ['tmp'],
     shell: {
       jekyll: {
         command: 'rm -rf _site/*; bundle exec jekyll build',
@@ -77,11 +78,12 @@ module.exports = function (grunt) {
     }
   })
 
-  grunt.registerTask('serve', [
+  grunt.registerTask('default', [
     'shell:jekyll',
     'connect:server',
     'watch'
   ])
 
-  grunt.registerTask('process-css', ['sass', 'concat', /* 'cssmin',*/ 'copy'])
+  grunt.registerTask('process-css', ['sass', 'concat', //'cssmin',
+  'copy', 'clean'])
 }
