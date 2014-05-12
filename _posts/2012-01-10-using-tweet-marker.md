@@ -4,8 +4,6 @@ category: apps
 title: Using Tweet Marker (when the best is not what's right for you)
 ---
 
-<h1 style="display: none">abcde</h1>
-
 There is little to no question right now about it: the best iPhone app for us, who started using Twitter more than a year ago is called [Tweetbot][tweetbot]. It is beautiful and a lot of thought has been put on its interactions so it's fast. If you use Twitter even casually and you have an iPhone, you should give it a try. At 2.99 it is a no-brainer.
 
 However, it doesn't solve one of the most known first-world problems ever. How am I going to sync it, so that if I read some tweets on my Mac, I can continue from where I was?

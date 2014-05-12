@@ -68,18 +68,17 @@
 <p>The site gets a decent amount of traffic (150-200k monthly pageviews) so we had to implement some interesting stuff to make it fast, such as</p>
 
 <ul>
-<li>All the <a href="https://github.com/rumblelabs/asset_sync">assets are precompiled and copied to S3</a>, they are also served gzipped where possible.</li>
-
-<li>It runs on unicorn so it gets the most of each dyno.</li>
-
-<li>The images are lazily loaded so we can get long, descriptive pages without making the initial site load too slow.</li>
-
-<li>It gets a 90+ score on Pagespeed.</li>
+  <li>All the <a href="https://github.com/rumblelabs/asset_sync">assets are precompiled and copied to S3</a>, they are also served gzipped where possible.</li>
+  <li>It runs on unicorn so it gets the most of each dyno.</li>
+  <li>The images are lazily loaded so we can get long, descriptive pages without making the initial site load too slow.</li>
+  <li>It gets a 90+ score on Pagespeed.</li>
 </ul>
 
 <p>We also designed the <a href="http://philadelphia.com.mx/recetas">recipe finder</a> to be fast while having a great browsing experience</p>
 
 <p><a href="http://www.philadelphia.com.mx/recetas"><img src="/assets/philadelphia/recipes.jpg" alt="Philadelphia Recipes" /></a></p>
+
+
 </div>
 
 

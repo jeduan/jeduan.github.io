@@ -6,6 +6,9 @@ var:
   archive_path: /archive.html
   categories_path : /categories.html
 
+markdown: kramdown
+# redcarpet: ['smart', 'fenced_code_blocks']
+
 exclude:
   - Gemfile
   - Gemfile.lock

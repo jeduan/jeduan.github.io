@@ -4,9 +4,7 @@ category: life
 title: "Cómo terminé viviendo en San Francisco"
 ---
 
-<h1 style="display: none">abcde</h1>
-
-El siguiente mes cambiaré mi vida de manera radical. Seré el empleado número cinco de un startup que está trabajando duro en lanzar su producto, y empezaré a vivir en San Francisco. 
+El siguiente mes cambiaré mi vida de manera radical. Seré el empleado número cinco de un startup que está trabajando duro en lanzar su producto, y empezaré a vivir en San Francisco.
 
 Este post, más que una guía paso a paso de cómo irse a vivir allá, es una lista de cosas que he aprendido en el camino de lograrlo.
 
@@ -40,6 +38,6 @@ Apliqué a no menos de 10 empresas el primer día. Por la tarde me senté a chec
 
 La primera semana pasó sin mucha gloria. Fui a entrevistas de las que salí no tan convencido de que ya estaba listo. Empecé a racionalizar la idea de regresar con las manos vacías. ***"We are sorry, but the timing is not right for us to have you join our team. We wish you luck in your job search"***.
 
-Y del lugar más inesperado, un sospechoso correo. *Hey, somebody told us you are a frontend developer and are looking for a job, would you like to come and chat about it?*. Y entonces pasó lo que me habían contado: rockeas en la entrevista, platicas con todos en la empresa, los sorprendes, te sorprenden y en menos de una semana te llaman para hacerte una oferta. 
+Y del lugar más inesperado, un sospechoso correo. *Hey, somebody told us you are a frontend developer and are looking for a job, would you like to come and chat about it?*. Y entonces pasó lo que me habían contado: rockeas en la entrevista, platicas con todos en la empresa, los sorprendes, te sorprenden y en menos de una semana te llaman para hacerte una oferta.
 
 *Mil gracias a [Rocío](http://twitter.com/lachinous) por revisar y corregir el estilo*
