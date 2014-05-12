@@ -57,7 +57,7 @@ html, button, input, select, textarea,
 .header-name {
   color: #333333;
   @extend %heading;
-  @include font-size(24px);
+  @include rem(font-size, 24);
 }
 .header-link {
   text-decoration: none;
@@ -70,16 +70,16 @@ html, button, input, select, textarea,
   font-weight: 300;
 }
 .header-position {
-  @include font-size(16px);
+  @include rem(font-size, 16);
   color: #666;
 }
 
 .content {
   @include bp-small {
-    padding: calculateRem(10px);
+    @include rem(padding, 10);
   }
   @include bp-large {
-    min-height: calculateRem(500px);
+    @include rem(min-height, 500);
   }
 
   p {
@@ -90,7 +90,7 @@ html, button, input, select, textarea,
 .footer {
   @extend %heading;
   @include bp-small {
-    padding: calculateRem(10px);
+    @include rem(padding, 10);
   }
   @include bp-large {
     position: static;
@@ -129,16 +129,16 @@ html, button, input, select, textarea,
   }
   a {
     display: block;
-    margin-right: calculateRem(4px);
+    @include rem(margin-right, 4px);
     text-align: right;
     color: #333;
     text-decoration: none;
   }
 }
 .footer-joke {
-  font-size: calculateRem(12px);
+  @include rem(font-size, 12);
   font-weight: 200;
-  margin-top: calculateRem(20px);
+  @include rem(margin-top, 20);
 }
 .contact {
   font-weight: 700;
@@ -147,6 +147,6 @@ html, button, input, select, textarea,
   margin: 0 auto;
   text-align: center;
   text-transform: lowercase;
-  margin-top: calculateRem(20px);
-  padding: calculateRem(2px);
+  @include rem(margin-top, 20);
+  @include rem(padding, 2);
 }

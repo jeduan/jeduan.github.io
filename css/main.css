@@ -51,15 +51,18 @@ p em, p i {
 
 @media only screen and (max-width: 30em) {
   .content {
+    padding: 10px;
     padding: 0.625rem; } }
 @media only screen and (min-width: 60em) {
   .content {
+    min-height: 500px;
     min-height: 31.25rem; } }
 .content p {
   margin-bottom: 1.25rem; }
 
 @media only screen and (max-width: 30em) {
   .footer {
+    padding: 10px;
     padding: 0.625rem; } }
 @media only screen and (min-width: 60em) {
   .footer {
@@ -93,14 +96,17 @@ p em, p i {
     margin-left: -19px; }
   .footer-arrowbox a {
     display: block;
+    margin-right: 4px;
     margin-right: 0.25rem;
     text-align: right;
     color: #333;
     text-decoration: none; }
 
 .footer-joke {
+  font-size: 12px;
   font-size: 0.75rem;
   font-weight: 200;
+  margin-top: 20px;
   margin-top: 1.25rem; }
 
 .contact {
@@ -110,5 +116,7 @@ p em, p i {
   margin: 0 auto;
   text-align: center;
   text-transform: lowercase;
+  margin-top: 20px;
   margin-top: 1.25rem;
+  padding: 2px;
   padding: 0.125rem; }
