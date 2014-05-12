@@ -6,8 +6,12 @@ var:
 
 markdown: redcarpet
 redcarpet:
-  extensions: ['smart', 'fenced_code_blocks', 'strikethrough', 'autolink',
-  'no_intra_emphasis']
+  extensions:
+    - smart
+    - fenced_code_blocks
+    - strikethrough
+    - autolink
+    - no_intra_emphasis
 
 exclude:
   - Gemfile
@@ -22,7 +26,7 @@ exclude:
   - README.md
   - package.json
 
-production_url : http://jeduan.com # or your custom domain name
+production_url : http://www.jeduan.com
 title : Jeduan
 
 author :
