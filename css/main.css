@@ -1,0 +1,102 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, button, input, select, textarea, .pure-g [class*="pure-u"], .pure-g-r [class*="pure-u"] {
+  /* Set your content font stack here: */
+  font-family: 'PT Serif', serif; }
+
+.pure-g [class*="pure-u"] .pure-menu, .pure-g [class*="pure-u"] .header-position, .footer {
+  font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+.pure-g, .footer-container {
+  max-width: 40em;
+  max-width: 40rem;
+  margin: 0 auto; }
+
+
+.pure-g h2 {
+  font-family: 'Avenir Next', Helvetica, sans-serif; }
+
+.pure-g {
+  font-family: 'PT Serif', serif;
+  letter-spacing: normal;
+  padding-bottom: 180px; }
+
+.footer {
+  height: 180px; }
+
+.header-name {
+  color: #333333;
+  font-family: 'Avenir Next', 'HelveticaNeue';
+  font-size: 24px;
+  font-size: 1.5rem; }
+
+.header-firstname {
+  text-decoration: none;
+  font-weight: 700;
+  color: #333; }
+
+.header-lastname {
+  font-weight: 300; }
+
+.header-position {
+  font-size: 16px;
+  font-size: 1rem;
+  color: #666; }
+
+.content p {
+  margin-bottom: 1.25rem; }
+
+@media only screen and (max-width: 60em) {
+  .footer {
+    position: static;
+    bottom: 0;
+    left: 0; } }
+
+
+.footer-arrowbox {
+  position: relative;
+  background: #ffffff;
+  border: 2px solid #333;
+  margin: 0 auto; }
+  .footer-arrowbox:after, .footer-arrowbox:before {
+    top: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none; }
+  .footer-arrowbox:after {
+    border-top-color: #ffffff;
+    border-width: 16px;
+    left: 50%;
+    margin-left: -16px; }
+  .footer-arrowbox:before {
+    border-top-color: #333;
+    border-width: 19px;
+    left: 50%;
+    margin-left: -19px; }
+  .footer-arrowbox a {
+    display: block;
+    margin-right: 4px;
+    text-align: right;
+    color: #333;
+    text-decoration: none; }
+
+.footer-joke {
+  font-size: 12px;
+  font-weight: 200;
+  margin-top: 20px; }
+
+.contact {
+  font-weight: 700;
+  background: black;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: lowercase;
+  margin-top: 20px;
+  padding: 2px; }

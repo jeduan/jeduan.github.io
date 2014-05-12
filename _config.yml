@@ -1,6 +1,6 @@
-# This is the default format. 
+# This is the default format.
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink: /:year/:title 
+permalink: /:year/:title
 pygments: true
 var:
   archive_path: /archive.html
@@ -12,6 +12,12 @@ exclude:
   - bower.json
   - bower_components
   - sass
+  - node_modules
+  - Gruntfile.js
+  - css
+  - Rakefile
+  - README.md
+  - package.json
 
 production_url : http://jeduan.com # or your custom domain name
 title : Jeduan

@@ -10,37 +10,64 @@
   <title>{{ page.title }}</title>
   <meta name="author" content="{{ site.author.name }}" />
   <link href="http://feeds.feedburner.com/username" rel="alternate" title="Jeduan" type="application/atom+xml" />
-  <link href='http://fonts.googleapis.com/css?family=Paytone+One' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="/css/screen.css"/>
-  <link rel="stylesheet" href="/css/syntax.css" />
-  <!-- <script src="{{ theme_asset_path }}/js/modernizr.min.js"></script> -->
-
-  <!--[if lt IE 9]>
-    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+  <link rel="stylesheet" href="/assets/main.css"/>
+  <!-- <script src="/assets/js/modernizr.min.js"></script> -->
 </head>
 
 <body lang="en">
-  <header class="row">
-    <div class="hello"><span>Hello</span></div>
-    <div class="nameis">my name is:</div>
-    <a class="name" href="/">{{ site.title }}</a>
-    <div class="last-name">Cornejo</div>
-  </header>
-  
-  <div class="content">
-    {{ content }}
+  <div class="pure-g">
+    <!-- <div class="pure-u-1">
+      <div class="pure-menu pure-menu-horizontal pure-menu-open">
+        <a href="/" class="pure-menu-heading">
+          <span class="header-firstname">{{ site.title }}</span>
+          <span class="header-lastname">Cornejo</span>
+        </a>
+        <ul>
+          <li><a href="/about.html">About me</a></li>
+          <li><a href="/archive.html">Posts</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="header-title pure-u-2">
+      <div class="header-position">
+        Full stack developer in Mexico City
+      </div>
+    </div> -->
+    <div class="header-title pure-u-1-2">
+      <div class="header-name">
+        <a class="header-firstname" href="/">{{ site.title }}</a>
+        <span class="header-lastname">Cornejo</span>
+      </div>
+      <div class="header-position">
+        Full stack developer in Mexico City
+      </div>
+    </div>
+    <nav class="pure-u-1-2">
+      <div class="pure-menu pure-menu-horizontal pure-menu-open">
+        <ul>
+          <li><a href="/about.html">About me</a></li>
+          <li><a href="/archive.html">Posts</a></li>
+          <li><a href="/hire.html">Hire me</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="content" class="pure-u-1">
+      {{ content }}
+    </div>
   </div>
 
-  <footer>
-    <div class="arrow_box">
-      <a class="icon twitter" href="http://twitter.com/{{ site.author.twitter }}/">@{{ site.author.twitter }}</a>
-      <a class="icon github" href="http://github.com/{{ site.author.github }}/">github.com/{{ site.author.github }}</a>
-      <a class="icon linkedin" href="http://linkedin.com/in/jeduan" class="icon linkedin">linkedin.com/in/jeduan</a>
+  <footer class="footer pure-u-1">
+    <div class="footer-container">
+      <div class="footer-arrowbox">
+        <a class="icon icon-twitter" href="http://twitter.com/{{ site.author.twitter }}/">@{{ site.author.twitter }}</a>
+        <a class="icon icon-github" href="http://github.com/{{ site.author.github }}/">github.com/{{ site.author.github }}</a>
+        <a class="icon icon-linkedin" href="http://linkedin.com/in/jeduan" class="icon linkedin">linkedin.com/in/jeduan</a>
+      </div>
+      <div class="contact">Contact</div>
+      <p class="footer-joke">In case you were wondering, yes, really my name is Jeduan</p>
     </div>
-    <div class="contact">Contact</div>
-    <p class="joke">In case you were wondering, yes, really my name is Jeduan</p>
   </footer>
   {% if site.safe %}
   {% include production/analytics.html %}

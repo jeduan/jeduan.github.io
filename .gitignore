@@ -1,11 +1,5 @@
 .DS_Store
-*.esproj
-build
-test
-README.markdown
-demo
-js/profiling
-.bin
 .bundle
 Gemfile.lock
 bower_components
+node_modules
