@@ -5,7 +5,7 @@
 
 html, button, input, select, textarea, .pure-g [class*="pure-u"], .pure-g-r [class*="pure-u"] {
   /* Set your content font stack here: */
-  font-family: 'PT Serif', serif; }
+  font-family: 'Cardo', serif; }
 
 .pure-g [class*="pure-u"] .pure-menu, .pure-g [class*="pure-u"] .header-position, .pure-g-r [class*="pure-u"] .pure-menu, .pure-g-r [class*="pure-u"] .header-position, .footer {
   font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
@@ -16,7 +16,7 @@ html, button, input, select, textarea, .pure-g [class*="pure-u"], .pure-g-r [cla
   margin: 0 auto; }
 
 .pure-g, .pure-g-r {
-  font-family: 'PT Serif', serif;
+  font-family: 'Cardo', serif;
   letter-spacing: normal; }
   .pure-g h2, .pure-g-r h2 {
     font-family: 'Avenir Next', Helvetica, sans-serif; }
@@ -44,14 +44,18 @@ html, button, input, select, textarea, .pure-g [class*="pure-u"], .pure-g-r [cla
   font-size: 1rem;
   color: #666; }
 
-.content {
-  padding: 0.625rem; }
-  @media only screen and (min-width: 60em) {
-    .content {
-      min-height: 31.25rem; } }
-  .content p {
-    margin-bottom: 1.25rem; }
+@media only screen and (max-width: 30em) {
+  .content {
+    padding: 0.625rem; } }
+@media only screen and (min-width: 60em) {
+  .content {
+    min-height: 31.25rem; } }
+.content p {
+  margin-bottom: 1.25rem; }
 
+@media only screen and (max-width: 30em) {
+  .footer {
+    padding: 0.625rem; } }
 @media only screen and (min-width: 60em) {
   .footer {
     position: static;

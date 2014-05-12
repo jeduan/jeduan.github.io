@@ -1,6 +1,6 @@
 @import "sass/mixins";
 $em: 1;
-$font-content: 'PT Serif', serif;
+$font-content: 'Cardo', serif;
 
 *, *:before, *:after {
   -moz-box-sizing: border-box;
@@ -66,7 +66,9 @@ html, button, input, select, textarea,
 }
 
 .content {
-  padding: calculateRem(10px);
+  @include bp-small {
+    padding: calculateRem(10px);
+  }
   @include bp-large {
     min-height: calculateRem(500px);
   }
@@ -78,6 +80,9 @@ html, button, input, select, textarea,
 
 .footer {
   @extend %sans-font;
+  @include bp-small {
+    padding: calculateRem(10px);
+  }
   @include bp-large {
     position: static;
     bottom: 0;
