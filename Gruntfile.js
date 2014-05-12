@@ -23,7 +23,7 @@ module.exports = function (grunt) {
     cssmin: {
       dist: {
         src: 'assets/main.css',
-        dest: 'assets/main.min.css'
+        dest: 'assets/main.css'
       }
     },
     copy: {
@@ -84,6 +84,6 @@ module.exports = function (grunt) {
     'watch'
   ])
 
-  grunt.registerTask('process-css', ['sass', 'concat', //'cssmin',
+  grunt.registerTask('process-css', ['sass', 'concat', 'cssmin',
   'copy', 'clean'])
 }
