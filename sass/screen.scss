@@ -16,7 +16,6 @@
 }
 
 a {
-  text-decoration: none;
   color: #000;
 }
 
@@ -26,8 +25,6 @@ p em, p i {
 }
 
 *, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -61,7 +58,9 @@ html, button, input, select, textarea,
     color: #333;
   }
 }
-
+.header-link {
+  text-decoration: none;
+}
 .header-name {
   color: #333333;
   @extend %heading;

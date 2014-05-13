@@ -1,6 +1,6 @@
 
-http://www.]jeduan.com/about.html
-http://www.]jeduan.com/archive.html
+http://www.]jeduan.com/about/index.html
+http://www.]jeduan.com/archive/index.html
 http://www.]jeduan.com/categories.html
 http://www.]jeduan.com/index.html
 http://www.]jeduan.com/pages.html
