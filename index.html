@@ -7,7 +7,7 @@ header: Esto es mi pagina
 <div class="post">
   <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
   <span class="post-date">{{ post.date | date: '%B %Y' }}</span>
-  <div class="post-excerpt">{{post.excerpt}}</div>
+  <div class="post-excerpt">{{ post.excerpt | markdownify }}</div>
 </div>
 {% endfor %}
 </section>
