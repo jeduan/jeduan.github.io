@@ -55,6 +55,7 @@ module.exports = function (grunt) {
           '_layouts/*.html',
           'assets/js/*.js',
           '**/*.md',
+          '!_site/**/*.md',
           '_config.yml',
           'index.html',
           '404.html'
