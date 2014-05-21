@@ -4,13 +4,7 @@ var:
   archive_path: /archive.html
   categories_path : /categories.html
 
-markdown: redcarpet
-redcarpet:
-  extensions:
-    - smart
-    - strikethrough
-    - autolink
-    - no_intra_emphasis
+markdown: kramdown
 
 exclude:
   - Gemfile
