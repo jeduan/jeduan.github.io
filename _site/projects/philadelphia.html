@@ -46,28 +46,29 @@
 
     <div class="content" class="pure-u-1">
       <div class="pure-1">
-  <h2>Philadelphia</h2>
+  <h2 id="philadelphia">Philadelphia</h2>
 
-<p>I worked for a year improving Kraft Foods&#39; <a href="http://www.philadelphia.com.mx">Philadelphia Cream Cheese online presence</a>.</p>
+<p>I worked for a year improving Kraft Foods’ <a href="http://www.philadelphia.com.mx">Philadelphia Cream Cheese online presence</a>.</p>
 
-<p>For the new website the whole spec was to do something innovative, while keeping eye on usability for Philadelphia&rsquo;s demographics (25-45 year old women).</p>
+<p>For the new website the whole spec was to do something innovative, while keeping eye on usability for Philadelphia’s demographics (25-45 year old women).</p>
 
-<p>We came up with a scrolling navigation single page site. I looked up on the plugins to achieve this and neither was realy what I was looking for so I just <a href="https://github.com/jeduan/jquery-glideto">built a plugin for it</a> (which I released with the company&rsquo;s consentment).</p>
+<p>We came up with a scrolling navigation single page site. I looked up on the plugins to achieve this and neither was realy what I was looking for so I just <a href="https://github.com/jeduan/jquery-glideto">built a plugin for it</a> (which I released with the company’s consentment).</p>
 
-<p><a href="http://www.philadelphia.com.mx"><img src="/assets/philadelphia/newsite.jpg" alt="Philadelphia site"></a></p>
+<p><a href="http://www.philadelphia.com.mx"><img src="/assets/philadelphia/newsite.jpg" alt="Philadelphia site" /></a></p>
 
 <p>The site gets a decent amount of traffic (150-200k monthly pageviews) so we had to implement some interesting stuff to make it fast, such as</p>
 
 <ul>
-<li>All the <a href="https://github.com/rumblelabs/asset_sync">assets are precompiled and copied to S3</a>, they are also served gzipped where possible.</li>
-<li>It runs on unicorn so it gets the most of each dyno.</li>
-<li>The images are lazily loaded so we can get long, descriptive pages without making the initial site load too slow.</li>
-<li>It gets a 90+ score on Pagespeed.</li>
+  <li>All the <a href="https://github.com/rumblelabs/asset_sync">assets are precompiled and copied to S3</a>, they are also served gzipped where possible.</li>
+  <li>It runs on unicorn so it gets the most of each dyno.</li>
+  <li>The images are lazily loaded so we can get long, descriptive pages without making the initial site load too slow.</li>
+  <li>It gets a 90+ score on Pagespeed.</li>
 </ul>
 
 <p>We also designed the <a href="http://philadelphia.com.mx/recetas">recipe finder</a> to be fast while having a great browsing experience</p>
 
-<p><a href="http://www.philadelphia.com.mx/recetas"><img src="/assets/philadelphia/recipes.jpg" alt="Philadelphia Recipes"></a></p>
+<p><a href="http://www.philadelphia.com.mx/recetas"><img src="/assets/philadelphia/recipes.jpg" alt="Philadelphia Recipes" /></a></p>
+
 
 </div>
 
