@@ -18,7 +18,7 @@ Hoy en día el siguiente reto del ecosistema es tener las primeras empresas madu
 
 Creo que todos salen perdiendo si el enfoque sigue siendo en que todas las personas que se respeten deben de construir compañías nuevas hasta que alguna funcione: las empresas aun en proceso de maduración tendrían cada vez más dificultades para complementar su equipo con experiencia y talento y las concentraciones de talento se darían de forma cada vez más esporádica.
 
-Si estas leyendo esto y tu idea es algún día crear una empresa que valga cientos de millones de dólares, pregúntate si la mejor forma de lograr esto es empezando de cero o ayudando a construir una empresa con una valuación alta. Piensa en las razones por las cuales los integrantes de la [Paypal Mafia](http://en.wikipedia.org/wiki/Paypal%20Mafia) fueron consistentemente exitosos en sus siguientes aventuras.
+Si estas leyendo esto y tu idea es algún día crear una empresa que valga cientos de millones de dólares, pregúntate si la mejor forma de lograr esto es empezando de cero o ayudando a construir una empresa con una valuación alta. Piensa en las razones por las cuales los integrantes de la [Paypal Mafia](http://en.wikipedia.org/wiki/PayPal_Mafia) fueron consistentemente exitosos en sus siguientes aventuras.
 
 Si ves a alguien que no ha iniciado nada, por favor no preguntes para cuándo inicia su propio negocio, mejor pregunta qué ha aprendido mientras hace su trabajo[^3]. Puede que te enseñe un par de cosas.
 
