@@ -5,7 +5,7 @@ header: Esto es mi pagina
 ---
 {% for post in site.posts %}
 <div class="post">
-  <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+  <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
   <span class="post-date">{{ post.date | date: '%B %Y' }}</span>
   <div class="post-excerpt">{{ post.excerpt | markdownify }}</div>
 </div>

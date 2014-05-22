@@ -1,7 +1,7 @@
 @import "sass/mixins";
 
 %heading {
-  font-family: 'futura-pt-1', 'futura-pt-2', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'adobe-garamond-pro-1', 'adobe-garamond-pro-2', serif;
 }
 
 %content {
@@ -58,6 +58,10 @@ html, button, input, select, textarea,
     color: #333;
   }
 }
+
+.header-title, .header-nav {
+  @include rem(margin-top, 20);
+}
 .header-link {
   text-decoration: none;
 }
@@ -74,7 +78,39 @@ html, button, input, select, textarea,
 }
 .header-position {
   @include rem(font-size, 16);
+  font-style: italic;
   color: #666;
+}
+
+%post-title {
+  @include rem(margin, 0);
+  a {
+    @include rem(margin-top, 20);
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.post {
+  @include rem(margin-bottom, 70);
+  h2 {
+    @extend %post-title;
+  }
+}
+
+.post-title {
+  @extend %post-title;
+}
+
+.post-date, .post .meta {
+  @extend %heading;
+  font-style: italic;
+  margin-top: 0;
+}
+.post-excerpt {
+  @include rem(margin-top, 15)
 }
 
 // Content
@@ -84,10 +120,11 @@ html, button, input, select, textarea,
   }
   @include bp-large {
     @include rem(min-height, 500);
+    @include rem(margin-top, 50);
   }
 
   p {
-    margin-bottom: 1.25rem;
+    @include rem(margin, 10, 0)
   }
 }
 
@@ -108,9 +145,9 @@ html, button, input, select, textarea,
 }
 .footer-arrowbox {
   position: relative;
-  background: #ffffff;
-  border: 2px solid #333;
+  background: #ddd;
   margin: 0 auto;
+  @include rem(padding, 15);
   &:after, &:before {
     top: 100%;
     border: solid transparent;
@@ -121,33 +158,35 @@ html, button, input, select, textarea,
     pointer-events: none;
   }
   &:after {
-    border-top-color: #ffffff;
+    border-top-color: #ddd;
     border-width: 16px;
     left: 50%;
     margin-left: -16px;
   }
   &:before {
-    border-top-color: #333;
     border-width: 19px;
     left: 50%;
     margin-left: -19px;
   }
-  a {
-    display: block;
-    @include rem(margin-right, 4px);
-    text-align: right;
-    color: #333;
-    text-decoration: none;
-  }
+}
+.footer-link {
+  display: block;
+  text-align: right;
+  color: #333;
+  text-decoration: none;
 }
 .footer-joke {
   @include rem(font-size, 12);
   font-weight: 200;
   @include rem(margin-top, 20);
+  em {
+    font-weight: normal;
+    font-style: italic;
+  }
 }
-.contact {
+.footer-contact {
   font-weight: 700;
-  background: black;
+  background: #555;
   color: white;
   margin: 0 auto;
   text-align: center;
