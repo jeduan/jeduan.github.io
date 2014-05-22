@@ -11,13 +11,21 @@ module.exports = function (grunt) {
       }
     },
     concat: {
-      dist: {
+      css: {
         src: [
           'bower_components/pure/pure.css',
+          'bower_components/bigfoot/dist/bigfoot-default.css',
           'css/syntax.css',
           'tmp/main.css'
         ],
         dest: 'assets/main.css'
+      },
+      js: {
+        src: [
+          'bower_components/jquery/dist/jquery.js',
+          'bower_components/bigfoot/dist/bigfoot.js'
+        ],
+        dest: 'assets/vendor.js'
       }
     },
     cssmin: {
@@ -63,6 +71,13 @@ module.exports = function (grunt) {
         tasks: ['shell:jekyll'],
       },
     },
+    uglify: {
+      target: {
+        files: {
+          'assets/vendor.js': 'assets/vendor.js'
+        }
+      }
+    },
     connect: {
       server: {
         options: {
@@ -85,5 +100,5 @@ module.exports = function (grunt) {
   ])
 
   grunt.registerTask('process-css', ['sass', 'concat', 'cssmin',
-  'copy', 'clean'])
+  'uglify','copy', 'clean'])
 }

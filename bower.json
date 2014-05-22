@@ -13,6 +13,7 @@
     "tests"
   ],
   "dependencies": {
-    "pure": "~0.4.2"
+    "pure": "~0.4.2",
+    "bigfoot": "~1.0.0"
   }
 }
