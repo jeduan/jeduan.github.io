@@ -20,7 +20,7 @@ Creo que todos salen perdiendo si el enfoque sigue siendo en que todas las perso
 
 Si estas leyendo esto y tu idea es algún día crear una empresa que valga cientos de millones de dólares, pregúntate si la mejor forma de lograr esto es empezando de cero o ayudando a construir una empresa con una valuación alta. Piensa en las razones por las cuales los integrantes de la [Paypal Mafia](http://en.wikipedia.org/wiki/Paypal%20Mafia) fueron consistentemente exitosos en sus siguientes aventuras.
 
-Si ves a alguien que no ha iniciado nada, por favor no preguntes para cuándo inicia su propio negocio, mejor pregunta qué ha aprendido mientras hace su trabajo. Puede que te enseñe un par de cosas.
+Si ves a alguien que no ha iniciado nada, por favor no preguntes para cuándo inicia su propio negocio, mejor pregunta qué ha aprendido mientras hace su trabajo[^3]. Puede que te enseñe un par de cosas.
 
   [^1]: El argumento más común es que son personas que no toman un riesgo y están buscando más un cheque constante. Hay parte de razón y parte de bullshit. Pregunten a cualquier miembro temprano de una startup si sus quincenas siempre han llegado a tiempo y completas (o si han llegado siempre, para el caso).
 
